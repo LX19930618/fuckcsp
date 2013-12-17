@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="rpc">
+        <in>connection.cc</in>
+        <in>jsl_log.cc</in>
+        <in>pollmgr.cc</in>
+        <in>rpc.cc</in>
+        <in>rpctest.cc</in>
+        <in>thr_pool.cc</in>
+      </df>
+      <in>extent_client.cc</in>
+      <in>extent_server.cc</in>
+      <in>extent_smain.cc</in>
+      <in>fuse.cc</in>
+      <in>gettime.cc</in>
+      <in>handle.cc</in>
+      <in>inode_manager.cc</in>
+      <in>lock_client.cc</in>
+      <in>lock_client_cache.cc</in>
+      <in>lock_demo.cc</in>
+      <in>lock_server.cc</in>
+      <in>lock_server_cache.cc</in>
+      <in>lock_smain.cc</in>
+      <in>lock_tester.cc</in>
+      <in>stringenc.cc</in>
+      <in>test-lab-3-a.c</in>
+      <in>test-lab-3-b.c</in>
+      <in>yfs_client.cc</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>GNUmakefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>GNUmakefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE}</buildCommand>
+          <cleanCommand>${MAKE} clean</cleanCommand>
+          <executablePath>lock_tester</executablePath>
+        </makeTool>
+      </makefileType>
+      <item path="extent_client.cc" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>rpc</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>LAB=4</Elem>
+            <Elem>SOL=0</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="extent_server.cc" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>rpc</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>LAB=4</Elem>
+            <Elem>SOL=0</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="extent_smain.cc" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>rpc</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>LAB=4</Elem>
+            <Elem>SOL=0</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <folder path="0/rpc">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>rpc</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>LAB=4</Elem>
+            <Elem>SOL=0</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <item path="fuse.cc" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>rpc</pElem>
+            <pElem>/usr/local/include/fuse</pElem>
+            <pElem>/usr/include/fuse</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>FUSE_USE_VERSION=25</Elem>
+            <Elem>LAB=4</Elem>
+            <Elem>SOL=0</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="gettime.cc" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>rpc</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>LAB=4</Elem>
+            <Elem>SOL=0</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="handle.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>rpc</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>LAB=4</Elem>
+            <Elem>SOL=0</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="inode_manager.cc" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>rpc</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>LAB=4</Elem>
+            <Elem>SOL=0</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="lock_client.cc" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>rpc</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>LAB=4</Elem>
+            <Elem>SOL=0</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="lock_client_cache.cc" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>rpc</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>LAB=4</Elem>
+            <Elem>SOL=0</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="lock_demo.cc" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>rpc</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>LAB=4</Elem>
+            <Elem>SOL=0</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="lock_server.cc" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>rpc</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>LAB=4</Elem>
+            <Elem>SOL=0</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="lock_server_cache.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>rpc</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>LAB=4</Elem>
+            <Elem>SOL=0</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="lock_smain.cc" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>rpc</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>LAB=4</Elem>
+            <Elem>SOL=0</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="lock_tester.cc" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>rpc</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>LAB=4</Elem>
+            <Elem>SOL=0</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="rpc/connection.cc" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="rpc/jsl_log.cc" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="rpc/pollmgr.cc" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="rpc/rpc.cc" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="rpc/rpctest.cc" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="rpc/thr_pool.cc" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="stringenc.cc" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>rpc</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>LAB=2</Elem>
+            <Elem>SOL=0</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="test-lab-3-a.c" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="test-lab-3-b.c" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="yfs_client.cc" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>rpc</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>LAB=4</Elem>
+            <Elem>SOL=0</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
